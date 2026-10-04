@@ -1,0 +1,37 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# local data
+*.db
+*.db-shm
+*.db-wal
+qdrant_data/
+recordings/
+backend/evaluation_reports/
+
+# node / next
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# infra
+infrastructure/certs/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

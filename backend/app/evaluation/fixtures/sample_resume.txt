@@ -1,0 +1,44 @@
+ARJUN MEHTA
+AI & Data Science Undergraduate
+arjun.mehta@example.com | +91 98765 43210 | github.com/arjunmehta | linkedin.com/in/arjunmehta
+
+SUMMARY
+Computer Science student specializing in AI and Data Science, focused on retrieval-augmented generation, LLM applications and backend engineering.
+
+EDUCATION
+B.Tech in Computer Science (AI & Data Science), Vellore Institute of Technology   2022 - 2026
+CGPA: 8.7/10
+
+TECHNICAL SKILLS
+Languages: Python, C++, SQL, JavaScript
+Frameworks: Flask, FastAPI, React
+AI/ML: Machine Learning, Deep Learning, NLP, RAG, LangChain, PyTorch, scikit-learn
+Databases: PostgreSQL, Qdrant, MongoDB
+Cloud & DevOps: AWS, Docker, Git
+
+PROJECTS
+Multimodal RAG Platform | Python, FastAPI, Qdrant, CLIP, LangChain
+A question-answering platform that retrieves answers across PDFs, images and tables using a single multimodal index.
+- Built an ingestion pipeline that extracts text, tables and images from PDFs and embeds them with CLIP and sentence-transformers
+- Stored embeddings with metadata in Qdrant and implemented hybrid retrieval combining vector search with BM25 keyword search
+- Designed a FastAPI backend that streams grounded answers with source citations to a React frontend
+
+AI Bug Analyzer | Python, Flask, scikit-learn, AWS
+A tool to help developers triage bug reports automatically by predicting severity and the responsible component.
+- Developed a Flask REST API that classifies incoming bug reports by severity and component
+- Trained a TF-IDF and logistic regression classifier on 12,000 labelled GitHub issues, reaching 87% accuracy
+- Deployed the service on AWS EC2 with Docker
+- Challenge: noisy, duplicated bug reports reduced accuracy; solved it by adding a deduplication step using cosine similarity before training
+
+EXPERIENCE
+Machine Learning Intern | DataNest Analytics | Bengaluru   May 2025 - Jul 2025
+- Built a customer churn prediction model in Python using XGBoost
+- Automated weekly reporting dashboards with Pandas and PostgreSQL, saving the analytics team 6 hours per week
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner - Amazon Web Services (2024)
+Deep Learning Specialization - Coursera (2023)
+
+ACHIEVEMENTS
+- Finalist, Smart India Hackathon 2024
+- Top 5% in institute-level coding contest 2023
